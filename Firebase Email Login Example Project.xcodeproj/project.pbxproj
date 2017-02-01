@@ -12,6 +12,7 @@
 		6E5505061E41EC78006E4603 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E5505041E41EC78006E4603 /* Main.storyboard */; };
 		6E5505081E41EC78006E4603 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E5505071E41EC78006E4603 /* Assets.xcassets */; };
 		6E55050B1E41EC78006E4603 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E5505091E41EC78006E4603 /* LaunchScreen.storyboard */; };
+		6EA45ACA1E41EE4B004CBA93 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6EA45AC91E41EE4B004CBA93 /* GoogleService-Info.plist */; };
 		A1626EF4723008B74E7B6C5A /* Pods_Firebase_Email_Login_Example_Project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49CD37DDE6209618A686E4DA /* Pods_Firebase_Email_Login_Example_Project.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +27,7 @@
 		6E5505071E41EC78006E4603 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6E55050A1E41EC78006E4603 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6E55050C1E41EC78006E4603 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EA45AC91E41EE4B004CBA93 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				6E5505071E41EC78006E4603 /* Assets.xcassets */,
 				6E5505091E41EC78006E4603 /* LaunchScreen.storyboard */,
 				6E55050C1E41EC78006E4603 /* Info.plist */,
+				6EA45AC91E41EE4B004CBA93 /* GoogleService-Info.plist */,
 			);
 			path = "Firebase Email Login Example Project";
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E55050B1E41EC78006E4603 /* LaunchScreen.storyboard in Resources */,
+				6EA45ACA1E41EE4B004CBA93 /* GoogleService-Info.plist in Resources */,
 				6E5505081E41EC78006E4603 /* Assets.xcassets in Resources */,
 				6E5505061E41EC78006E4603 /* Main.storyboard in Resources */,
 			);
@@ -377,6 +381,7 @@
 				6E5505111E41EC78006E4603 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

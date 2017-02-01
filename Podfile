@@ -6,5 +6,8 @@ target 'Firebase Email Login Example Project' do
   use_frameworks!
 
   # Pods for Firebase Email Login Example Project
+  pod ‘Firebase/Core’
+  pod ‘Firebase/Auth’
+  
 
 end

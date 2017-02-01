@@ -12,9 +12,13 @@
 		6E5505061E41EC78006E4603 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E5505041E41EC78006E4603 /* Main.storyboard */; };
 		6E5505081E41EC78006E4603 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E5505071E41EC78006E4603 /* Assets.xcassets */; };
 		6E55050B1E41EC78006E4603 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E5505091E41EC78006E4603 /* LaunchScreen.storyboard */; };
+		A1626EF4723008B74E7B6C5A /* Pods_Firebase_Email_Login_Example_Project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49CD37DDE6209618A686E4DA /* Pods_Firebase_Email_Login_Example_Project.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		342864471625B5F4224566BD /* Pods-Firebase Email Login Example Project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firebase Email Login Example Project.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Firebase Email Login Example Project/Pods-Firebase Email Login Example Project.debug.xcconfig"; sourceTree = "<group>"; };
+		49CD37DDE6209618A686E4DA /* Pods_Firebase_Email_Login_Example_Project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Firebase_Email_Login_Example_Project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		57662541883F1928EE86162F /* Pods-Firebase Email Login Example Project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firebase Email Login Example Project.release.xcconfig"; path = "Pods/Target Support Files/Pods-Firebase Email Login Example Project/Pods-Firebase Email Login Example Project.release.xcconfig"; sourceTree = "<group>"; };
 		6E5504FD1E41EC78006E4603 /* Firebase Email Login Example Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Firebase Email Login Example Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E5505001E41EC78006E4603 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6E5505021E41EC78006E4603 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1626EF4723008B74E7B6C5A /* Pods_Firebase_Email_Login_Example_Project.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +45,8 @@
 			children = (
 				6E5504FF1E41EC78006E4603 /* Firebase Email Login Example Project */,
 				6E5504FE1E41EC78006E4603 /* Products */,
+				885CCAF332147FDFB051BB53 /* Pods */,
+				8E2676D585B921B50EE339B3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +71,23 @@
 			path = "Firebase Email Login Example Project";
 			sourceTree = "<group>";
 		};
+		885CCAF332147FDFB051BB53 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				342864471625B5F4224566BD /* Pods-Firebase Email Login Example Project.debug.xcconfig */,
+				57662541883F1928EE86162F /* Pods-Firebase Email Login Example Project.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8E2676D585B921B50EE339B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49CD37DDE6209618A686E4DA /* Pods_Firebase_Email_Login_Example_Project.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6E55050F1E41EC78006E4603 /* Build configuration list for PBXNativeTarget "Firebase Email Login Example Project" */;
 			buildPhases = (
+				34CEBC967D390FB751DE8620 /* [CP] Check Pods Manifest.lock */,
 				6E5504F91E41EC78006E4603 /* Sources */,
 				6E5504FA1E41EC78006E4603 /* Frameworks */,
 				6E5504FB1E41EC78006E4603 /* Resources */,
+				144E6BE919AAD388226936B9 /* [CP] Embed Pods Frameworks */,
+				D172B64BB6D6600F5B77D299 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,6 +158,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		144E6BE919AAD388226936B9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Firebase Email Login Example Project/Pods-Firebase Email Login Example Project-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34CEBC967D390FB751DE8620 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D172B64BB6D6600F5B77D299 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Firebase Email Login Example Project/Pods-Firebase Email Login Example Project-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6E5504F91E41EC78006E4603 /* Sources */ = {
@@ -257,6 +332,7 @@
 		};
 		6E5505101E41EC78006E4603 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 342864471625B5F4224566BD /* Pods-Firebase Email Login Example Project.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 44VVQHZS45;
@@ -270,6 +346,7 @@
 		};
 		6E5505111E41EC78006E4603 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57662541883F1928EE86162F /* Pods-Firebase Email Login Example Project.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 44VVQHZS45;
